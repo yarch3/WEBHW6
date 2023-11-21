@@ -1,0 +1,72 @@
+div.divv {
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+	background-color: red;
+	color:white;
+}
+#three {
+	position:relative;
+	background-color:lightblue;
+	top: 20px;
+	left: 20px;
+}
+#two {
+	position:absolute;
+	background-color:lightblue;
+	top: 20px;
+	left: 20px;
+}
+.task2 {
+	overflow: scroll;
+	width:500;
+	height:300;
+	margin-left: 150px;
+}
+.task3 {
+	height: 100px;
+	width: 100px;
+	background-color: red;
+	color:white;
+}
+#abc {
+	position:fixed;
+	top:80px;
+	left:10px:
+}
+.task4 {
+	height: 1200px;
+}
+dt {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  margin: 1em 0;
+}
+header {
+	position:relative;
+	text-align: center;
+	vertical-align:middle;
+	line-height:230px;
+	font-size:300%;
+	background: url(img/jcw.jpg) no-repeat center;
+	z-index:0;
+	height: 230px;
+	
+}
+header::after {
+	position: absolute;
+	color:lightpink;
+	z-index:
+}
+.selector {
+  z-index: auto;
+  z-index: 0;
+  z-index: -1;
+  z-index: 1;
+  z-index: 9999999;
+  z-index: -999999;
+}
